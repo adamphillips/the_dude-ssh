@@ -1,13 +1,13 @@
 PATH
   remote: .
   specs:
-    the_dude-trello (0.0.1)
-      ruby-trello (>= 1)
+    the_dude-ssh (0.0.1)
+      net-ssh
 
 PATH
   remote: ~/Projects/Development/Open Source/Ruby/Gems/TheDude/source/
   specs:
-    the_dude (0.0.2)
+    the_dude (0.0.3)
       colored
       hirb
       nokogiri
@@ -15,31 +15,11 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    activemodel (3.2.13)
-      activesupport (= 3.2.13)
-      builder (~> 3.0.0)
-    activesupport (3.2.13)
-      i18n (= 0.6.1)
-      multi_json (~> 1.0)
-    addressable (2.3.4)
-    builder (3.0.4)
     colored (1.2)
     hirb (0.7.1)
-    i18n (0.6.1)
-    json (1.8.0)
-    mime-types (1.23)
-    multi_json (1.7.3)
+    net-ssh (2.6.7)
     nokogiri (1.5.9)
-    oauth (0.4.7)
     rake (10.0.4)
-    rest-client (1.6.7)
-      mime-types (>= 1.16)
-    ruby-trello (1.0.1)
-      activemodel
-      addressable (~> 2.3)
-      json
-      oauth (~> 0.4.5)
-      rest-client (~> 1.6.7)
 
 PLATFORMS
   ruby
@@ -47,4 +27,4 @@ PLATFORMS
 DEPENDENCIES
   rake
   the_dude!
-  the_dude-trello!
+  the_dude-ssh!

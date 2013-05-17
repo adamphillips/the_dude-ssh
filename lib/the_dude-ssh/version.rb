@@ -1,5 +1,5 @@
 module TheDude
-  module Trello
+  module SSH
     VERSION = '0.0.1'
   end
 end
