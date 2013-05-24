@@ -13,5 +13,6 @@ spec = Gem::Specification.new do |s|
   s.require_paths << 'lib'
   s.bindir = 'bin'
   s.add_development_dependency('rake')
+  s.add_runtime_dependency('the_dude')
   s.add_runtime_dependency('net-ssh')
 end
